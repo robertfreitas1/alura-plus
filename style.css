@@ -25,3 +25,21 @@ body {
 .container{
     height: 100vh;
 }
+
+.links__section{
+    background-color: var(--botap-azul);
+    color: var(--branco-titulo-principal);
+    border-radius: 5px;
+    padding: 1em;
+    text-decoration: none;
+    display: flex;
+    width: 200px;
+    
+   
+}
+
+.links__section:hover{
+    text-decoration: underline;
+    background-color: #167bf7;
+   
+}
