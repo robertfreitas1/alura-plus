@@ -6,7 +6,7 @@
 :root {
     --branco-titulo-principal: #ffffff;
     --cinza-secundario: #c0c0c0;
-    --botap-azul: #167bf7;
+    --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
 }
 
@@ -24,18 +24,28 @@ body {
 
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50% ;
 }
 
 .links__section{
-    background-color: var(--botap-azul);
+    background-color: var(--botao-azul);
     color: var(--branco-titulo-principal);
     border-radius: 5px;
     padding: 1em;
     text-decoration: none;
-    display: flex;
-    width: 200px;
+    display: block;
+   
     
    
+}
+
+.container_botao_botao_secundario{
+    background-color: transparent;
+    color: var(--branco-titulo-principal);
+    border: 2px solid var(--branco-titulo-principal);
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .links__section:hover{
